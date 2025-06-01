@@ -3,9 +3,9 @@ Video Address: https://youtu.be/T1oLFBh4PcU?si=zc22TQv852Mbn9Md
 
 ## Steps
 1. Create a basic react/nextjs application ✅
-2. Connect with our wallet, with a nicer connect application
+2. Connect with our wallet, with a nicer connect application ✅
 3. Implement this function:
-  ```javascript
+  ```solidity
   function airdropERC20 (
     address tokenAddress,
     address[] calldata recipients,
