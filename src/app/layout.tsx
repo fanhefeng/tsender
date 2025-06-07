@@ -28,8 +28,8 @@ export default function RootLayout({
 		<html lang="en">
 			<body>
 				<Providers>
-				<Header />
-				{children}
+					<Header />
+					{children}
 				</Providers>
 			</body>
 		</html>

@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore common IDE configuration files
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+.settings/
+.project
+.classpath
+nbproject/
+*.sublime-project
+*.sublime-workspace
+.atom/

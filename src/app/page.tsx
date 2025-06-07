@@ -1,6 +1,8 @@
-import Header from "@/components/Header";
-import { ConnectButton } from "@rainbow-me/rainbowkit";
-
+import AirdropForm from "@/components/AirdropForm";
 export default function Home() {
-	return <>Hi there</>;
+	return (
+		<div>
+			<AirdropForm />
+		</div>
+	);
 }
