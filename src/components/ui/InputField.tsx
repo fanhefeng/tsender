@@ -1,4 +1,4 @@
-import { ChangeEvent, useState, useEffect } from "react";
+import { ChangeEvent, useId } from "react";
 
 interface InputFieldProps {
   label?: string;
@@ -17,13 +17,8 @@ export default function InputField({
   large = false,
   onChange,
 }: InputFieldProps) {
-  const [id, setId] = useState("");
-
-  useEffect(() => {
-    setId(Math.random().toString(36).substring(2, 11));
-  }, []);
-
-  if (!id) return null;
+  // 使用React的useId钩子生成稳定的ID，而不是Math.random()
+  const id = useId();
 
   return (
     <div className="mb-4">

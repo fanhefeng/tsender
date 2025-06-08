@@ -1,6 +1,6 @@
 interface ContractsConfig {
   [chainId: number]: {
-    tsender: string
+    tsender: `0x${string}`
     no_check: string | null
   }
 }

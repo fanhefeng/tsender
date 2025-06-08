@@ -1,10 +1,10 @@
 # YouTube AI | Full Stack Blockchain Tutorial
-Video Address: https://youtu.be/T1oLFBh4PcU?si=zc22TQv852Mbn9Md
+YouTube Address: https://youtu.be/T1oLFBh4PcU?si=zc22TQv852Mbn9Md
 
 ## Steps
 1. Create a basic react/nextjs application ✅
 2. Connect with our wallet, with a nicer connect application ✅
-3. Implement this function:
+3. Implement this function: ✅
   ```solidity
   function airdropERC20 (
     address tokenAddress,
@@ -13,4 +13,5 @@ Video Address: https://youtu.be/T1oLFBh4PcU?si=zc22TQv852Mbn9Md
      uint256 totalAmount
   )
   ```
-  4. Deploy to fleek
+  4. e2e tests 
+  5. Deploy to fleek

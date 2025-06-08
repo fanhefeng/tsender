@@ -1,8 +1,9 @@
+import { type ReactNode } from "react";
 import type { Metadata } from "next";
-// import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
 import { Providers } from "./providers";
 import Header from "../components/Header";
+// import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -19,17 +20,14 @@ export const metadata: Metadata = {
 	description: "AI | Full Stack Blockchain Tutorial",
 };
 
-export default function RootLayout({
-	children,
-}: Readonly<{
-	children: React.ReactNode;
-}>) {
+export default function RootLayout(props: { children: ReactNode }) {
+	console.log("layout.tsx");
 	return (
 		<html lang="en">
 			<body>
 				<Providers>
 					<Header />
-					{children}
+					{props.children}
 				</Providers>
 			</body>
 		</html>
