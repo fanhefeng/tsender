@@ -13,5 +13,5 @@ YouTube Address: https://youtu.be/T1oLFBh4PcU?si=zc22TQv852Mbn9Md
      uint256 totalAmount
   )
   ```
-  4. e2e tests 
+  4. e2e tests ✅
   5. Deploy to fleek
